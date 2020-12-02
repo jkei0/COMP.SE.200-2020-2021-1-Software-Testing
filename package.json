@@ -5,15 +5,15 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "nyc --reporter=html --reporter=text mocha",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
+    "test": "nyc mocha",
+    "coverage": "nyc report --reporter=text-lcov | coveralls -v"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NuuttiH/software-testing-project.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/NuuttiH/software-testing-project/issues"
   },
