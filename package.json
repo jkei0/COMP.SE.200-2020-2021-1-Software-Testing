@@ -1,0 +1,25 @@
+{
+  "name": "software-testing-project",
+  "version": "1.0.0",
+  "description": "Test plan execution for the assingment from COMP.SE.200 Software Testing course.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NuuttiH/software-testing-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NuuttiH/software-testing-project/issues"
+  },
+  "homepage": "https://github.com/NuuttiH/software-testing-project#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  },
+  "dependencies": {}
+}
