@@ -3,6 +3,7 @@ import isBuffer from "../src/isBuffer.js"
 const expect = chai.expect
 
 describe("isBuffer", () => {
+   // isBuffer() doesn't seem to produce true results at all
    it("test example buffer", () =>{
       expect(isBuffer(new Buffer(2))).to.eql(true)
    });

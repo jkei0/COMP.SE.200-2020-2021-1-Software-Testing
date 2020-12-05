@@ -3,6 +3,8 @@ import memoize from "../src/memoize.js"
 const expect = chai.expect
 
 describe("memoize", () => {
+   // The testing part provided in the original file isn't accepted
+   // and the function is a bit too difficult to properly grasp
    it("provided tests", () =>{
       const object = { 'a': 1, 'b': 2 }
       const other = { 'c': 3, 'd': 4 }
