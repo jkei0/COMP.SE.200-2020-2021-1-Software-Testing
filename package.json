@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "nyc mocha",
+    "test": "mocha",
     "coverage": "cross-env NODE_ENV=test nyc npm run test --exit",
     "coveralls": "nyc report --reporter=text-lcov | coveralls -v"
   },
