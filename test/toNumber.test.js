@@ -2,7 +2,7 @@ import chai from "chai"
 import toNumber from "../src/toNumber.js"
 const expect = chai.expect
 
-describe("toNumber: Convert a value to a number", () => {
+describe("toNumber", () => {
    it("convert a string", () =>{
       expect(toNumber("5.2")).to.eql(5.2)
    });

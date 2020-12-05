@@ -2,7 +2,7 @@ import chai from "chai"
 import words from "../src/words.js"
 const expect = chai.expect
 
-describe("Words: separates words in a string(with numbers included as different words)", () => {
+describe("words", () => {
    it("seperates words on space", () =>{
       expect(words('fred barney pebbles')).to.eql(['fred', 'barney', 'pebbles'])
    });

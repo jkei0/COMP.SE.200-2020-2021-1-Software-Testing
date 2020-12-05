@@ -2,7 +2,7 @@ import chai from "chai"
 import upperFirst from "../src/upperFirst.js"
 const expect = chai.expect
 
-describe("upperFirst: Convert first character os string to upper case", () => {
+describe("upperFirst", () => {
    it("change lower case to upper case", () =>{
       expect(upperFirst('fred')).to.eql("Fred")
    });
