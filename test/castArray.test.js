@@ -20,7 +20,7 @@ describe("castArray", () => {
       expect(castArray([1,2,3,4])).to.eql([1,2,3,4]);
     });
     it("Null", () => {
-      expect(castArray(null)).to.eql(null);
+      expect(castArray(null)).to.eql([null]);
     });
     it("Undefined", () => {
       expect(castArray(undefined)).to.eql([undefined]);
