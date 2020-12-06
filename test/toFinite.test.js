@@ -2,7 +2,7 @@ import chai from "chai"
 import toFinite from "../src/toFinite.js"
 const expect = chai.expect
 
-describe("toFinite: Convert a value to a finite number", () => {
+describe("toFinite", () => {
    it("convert Number.MIN_VALUE", () =>{
       expect(toFinite(Number.MIN_VALUE)).to.eql(5e-324)
    });

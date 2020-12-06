@@ -2,7 +2,7 @@ import chai from "chai"
 import toInteger from "../src/toInteger.js"
 const expect = chai.expect
 
-describe("toInteger: Convert a value to an integer", () => {
+describe("toInteger", () => {
    it("convert a floating point value", () =>{
       expect(toInteger("5.6")).to.eql(5)
    });
