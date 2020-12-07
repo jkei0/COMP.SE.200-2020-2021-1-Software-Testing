@@ -2,6 +2,6 @@ language: node_js
 node_js:
   - 14
 script:
-  - npm run coverage
+  - npm run test
 after_script:
   - npm run coveralls
